@@ -23,7 +23,7 @@ export default function Login() {
                     <Form.Group controlId="formBasicPassword">
                         <Form.Label>Password</Form.Label>
                         <Form.Control type="password" placeholder="Password" value={password} onChange={(e) => { setPassword(e.target.value) }} />
-                    </Form.Group>
+                    </Form.Group> 
 
                     <Button variant="primary" type="submit">Submit</Button>
                     <Row container>
